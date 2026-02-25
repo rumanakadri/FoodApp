@@ -3,6 +3,7 @@
       font-family: 'Inter', sans-serif;
 }
     
+/*user page */
 
 .navbar{
     margin:0px 20px 0px 20px !important;
@@ -77,78 +78,93 @@
       position:relative;
     }
 
-/*
 
 
-
-.topnav {
-  overflow: hidden;
-  background-color: #68DDAE;
+    /* home page */
+    * {
+  margin: 0;
+  padding: 2px;
+  box-sizing: border-box;
 }
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 0px 30px;
-  text-decoration: none;
-  font-size: 17px;
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+nav {
+  text-emphasis-color: white;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.hero {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  color: rgb(15, 15, 15);
 }
-*/
-/* Create a right-aligned (split) link inside the navigation bar */
-/*
-.topnav a.split {
-  float: right;
-  background-color: #68DDAE;
+
+.search-form {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+.search-form input {
+  padding: 0.7rem;
+  border: none;
+  width: 250px;
+}
+.search-form button {
+  padding: 0.7rem 1rem;
+  border: none;
+  background: #ff4d4d;
   color: white;
+  cursor: pointer;
 }
-
-#logo{
-    width:60px;
+.search-form button:hover {
+  background: #e60000;
 }
-
-#icon{
-    width:40px;
+.list-items button {
+  background: #198754;
+  padding-inline: 27px;
 }
-
-aside {
-    display:flex;
+.restaurants {
+  padding: 3rem 0;
+  text-align: center;
 }
-
-main{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: antiquewhite;
+.restaurant-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 2rem;
+  flex-wrap: wrap;
 }
-
-.foodimage {
-    width:30%;
+.restaurant-card {
+  background: #f4f4f4;
+  border-radius: 10px;
+  width: 250px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
 }
-
-.add_cart {
-    width: 10%;
+.restaurant-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
 }
-
-#cats{
-     display: flex;
+.restaurant-card:hover {
+  transform: scale(1.05);
 }
-
+.restaurant-card h3 {
+  margin: 1rem 0 0.5rem;
+}
+.restaurant-card p {
+  margin-bottom: 1rem;
+  color: gray;
+}
 footer {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      text-align: center;
-      background-color: #ffffff;
-      padding: 2em 1em;
-      margin-top: 4em;
-      font-size: 0.9em;
-      box-sizing: border-box;
-      position:relative;
-    }
-    */
+  background: #198754;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
