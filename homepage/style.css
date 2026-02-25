@@ -10,7 +10,13 @@
   margin: auto;
 }
 nav {
-  text-emphasis-color: white;
+  display: flex;
+  color: #f4f4f4;
+  justify-content: space-between;
+}
+.d-flex {
+  padding-left: 290px;
+  align-items: end;
 }
 
 .hero {
