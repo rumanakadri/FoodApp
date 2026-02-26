@@ -1,87 +1,87 @@
 * {
-      box-sizing: border-box;
-      font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
-    
+
 /*user page */
 
-.navbar{
-    margin:0px 20px 0px 20px !important;
+.navbar {
+  margin: 0px 20px 0px 20px !important;
 }
 
 #logo_title {
-    color: white !important;
-    font-size: 30px;
+  color: white !important;
+  font-size: 30px;
 }
-.logo{
-    margin:0px !important;
-    padding:0px !important;
+.logo {
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
-#icon_profile{
-    width:40px;
-    margin:5px 20px;
+#icon_profile {
+  width: 40px;
+  margin: 5px 20px;
 }
 
 #icon_fav {
-     width:40px;
-     margin:5px 20px;
+  width: 40px;
+  margin: 5px 20px;
 }
 
 .add_cart {
-    width: 10%;
+  width: 10%;
 }
 
-.card-img-top  {
-      width: 220px;
-      height: 220px;
-      object-fit: cover;
-      border: 8px solid #258470;
-      box-shadow: 0 0 0 10px #e3fff8, 0 15px 35px rgba(0, 0, 0, 0.2);
-      transition: transform 0.3s ease;
-    }
+.card-img-top {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border: 8px solid #258470;
+  box-shadow:
+    0 0 0 10px #e3fff8,
+    0 15px 35px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
 
 .card-img-top:hover {
-     transform: scale(1.05);
- }
+  transform: scale(1.05);
+}
 
- #rating{
-    width:100px;
- }
+#rating {
+  width: 100px;
+}
 
- .restaurant_title{
-    font-weight: bold;
-    font-size: 20px;
- }
+.restaurant_title {
+  font-weight: bold;
+  font-size: 20px;
+}
 
- .card_header{
-    margin: 0px !important;
- }
+.card_header {
+  margin: 0px !important;
+}
 
- .order_again{
-    margin:0px 20px 0px 20px;
- }
+.order_again {
+  margin: 0px 20px 0px 20px;
+}
 
- #order_again_title{
-    font-weight: bold;;
- }
+#order_again_title {
+  font-weight: bold;
+}
 
- footer {
-      justify-content: center;
-      width: 100%;
-      text-align: center;
-      background-color: #ffffff;
-      padding: 2em 1em;
-      margin-top: 4em;
-      font-size: 0.9em;
-      box-sizing: border-box;
-      position:relative;
-    }
+footer {
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 2em 1em;
+  margin-top: 4em;
+  font-size: 0.9em;
+  box-sizing: border-box;
+  position: relative;
+}
 
-
-
-    /* home page */
-    * {
+/* home page */
+* {
   margin: 0;
   padding: 2px;
   box-sizing: border-box;
@@ -93,7 +93,13 @@
   margin: auto;
 }
 nav {
-  text-emphasis-color: white;
+  display: flex;
+  color: #f4f4f4;
+  justify-content: space-between;
+}
+.d-flex {
+  padding-left: 270px;
+  align-items: end;
 }
 
 .hero {
